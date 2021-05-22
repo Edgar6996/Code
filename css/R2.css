@@ -1,0 +1,20 @@
+table tbody tr:nth-child(odd){
+    background-color: lightblue;
+}
+
+table {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 5px;
+    border: 1px solid gray;
+}
+
+.title-colum {
+    text-transform: capitalize;
+    color: gray;
+    padding: 5px;
+}
